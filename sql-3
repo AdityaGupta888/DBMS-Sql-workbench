@@ -1,0 +1,14 @@
+drop database employee;
+create database employee;
+use employee;
+
+
+create table employee(eid int not null primary key, 
+f_name varchar(40),
+l_name varchar(40), 
+salary decimal (10,2),
+hiredate date,
+department varchar(40));
+insert into employee(eid , f_name ,l_name , salary , hiredate , department)values
+(1, "Anadi", "Anant", 29000888 ,"2008-04-29","research");
+select*from employee
