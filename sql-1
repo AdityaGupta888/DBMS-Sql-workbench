@@ -1,0 +1,21 @@
+#//=== just a initial code for conceptual clarity for how to create database and table and what it's use and how it works ===//
+
+create database if not exists students_dbj;
+use students_dbj;
+drop table if exists students;
+create table students(
+SID int primary key,
+name varchar(100),
+branch varchar(100),
+city varchar(100)
+);
+insert into students(SID, Name , Branch , City)values
+(1, 'Siddharth' , 'IT' , 'Delhi'),
+(2, 'Aditya' , 'CSE' , 'Lucknow'),
+(3, 'Kalash' , 'AI' , 'Noida'),
+(4, 'Prince' , 'ML' , 'Gurgaon'),
+(5, 'Surya' , 'CSE' , 'USA'),
+(6, 'Dishu' , 'Electronics', 'Punjab'),
+(7, 'Aditya1' , 'ECE' , 'Phaghwara');
+
+select*from students;
