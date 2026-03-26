@@ -1,0 +1,19 @@
+drop database employee;
+create database employee;
+use employee;
+
+
+create table employee(eid int not null primary key, 
+f_name varchar(40),
+l_name varchar(40), 
+salary decimal (10,2),
+hiredate date,
+department varchar(40));
+insert into employee(eid , f_name ,l_name , salary , hiredate , department)values
+(1, "Anadi", "Anant", 29000888 ,"2008-04-29","research");
+-- select*from employee
+select concat(f_name , " " , l_name ) as full_name from employee;
+select avg(salary) from employee;
+select avg(salary) over (partition by department) asDepartment_salary from employee;
+select eid f_name , l_name , year(curdate) -year(hiredate) as year_with_company from employee;
+select count(eid) from employee
