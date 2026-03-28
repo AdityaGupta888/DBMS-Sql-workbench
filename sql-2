@@ -11,11 +11,13 @@ Department varchar(100)
 );
 insert into Employee (EID, E_NAME , L_NAME , Age , Salary ,Department)values
 (1, 'Aditya' , 'Gupta' , 21 , 29000000 , 'SeniorDeveloper'),
-(2, 'Kalash' , 'Shah' , 21 , 2900000000 , 'God of Coding and Maths'),
-(3, 'Dishu' , 'Chaudhary' , 22 , 3000000000 , ' God of ECE'),
-(4, 'Kushal' , 'Gupta' , 15 , 30000000 , 'Graphics Designer'),
-(5, 'Shreyash' , 'Gupta' , 15 , 40000000 , 'Developer&Engineering'),
-(6, 'Shubh' , 'Gupta' , 16 , 50000000, 'MathsWizard'),
-(7, 'Abhishek' , 'Gupta' , 16 , 500000000 , 'SoftwareDeveloper');
+(2, 'Kalash' , 'Shah' , 21 , 290000000 , 'God of Coding and Maths'),
+(3, 'Dishu' , 'Chaudhary' , 22 , 30000000 , 'ECE'),
+(4, 'Aditya' , 'Chaudhary' , 22 , 300000000 , ' God of ECE'),
+(5, 'Kushal' , 'Gupta' , 15 , 30000000 , 'Graphics Designer'),
+(6, 'Shreyash' , 'Gupta' , 15 , 40000000 , 'Developer&Engineering'),
+(7, 'Shubh' , 'Gupta' , 16 , 50000000, 'MathsWizard'),
+(8, 'Abhishek' , 'Gupta' , 16 , 500000000 , 'SoftwareDeveloper'),
+(9, 'Abhishek' , 'Gupta' , 16 , 500000000 , 'SoftwareDeveloper');
 -- Desc Employee 
 Select*from Employee
