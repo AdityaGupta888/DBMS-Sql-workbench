@@ -16,6 +16,6 @@ insert into students(SID, Name , Branch , City)values
 (4, 'Prince' , 'ML' , 'Gurgaon'),
 (5, 'Surya' , 'CSE' , 'USA'),
 (6, 'Dishu' , 'Electronics', 'Punjab'),
-(7, 'Aditya1' , 'ECE' , 'Phaghwara');
+(7, 'Aditya' , 'ECE' , 'Phaghwara');
 
 select*from students;
